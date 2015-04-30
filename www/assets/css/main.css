@@ -1,0 +1,66 @@
+/* ==========================================================================
+   Hoodie Sign In / Sign Up / Sign out stylings
+   ========================================================================== */
+
+body {
+  font-family: "Roboto","Arial", sans-serif;
+}
+
+.container {
+  background: #fff;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ----- your content ----- */
+.content {
+  padding: 10px;
+  width: 480px;
+  margin: 0 auto;
+}
+
+h1,
+h3,
+h4 {
+  color: #38afda;
+}
+
+/* ----- username ----- */
+.account .username {
+  font-weight: bold;
+}
+
+
+/* ----- welcome msg + SignOut Button ----- */
+.account {
+  text-align: right;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.account p {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+
+/* ------ login overlay ----- */
+.login {
+  position: absolute;
+  background-color: #fff;
+  top: 0;
+  bottom:0;
+  width: 99%;
+  z-index: 6996;
+}
+
+.login form {
+  position: absolute;
+  background-color: #fff;
+  z-index: 6999;
+  width:300px;
+  height:150px;
+  top: 30%;
+  left: 40%;
+}
