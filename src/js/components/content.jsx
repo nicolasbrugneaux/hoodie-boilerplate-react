@@ -10,9 +10,9 @@ export default class Content extends React.Component
     render()
     {
         return ( this.props.isLogged ?
-            <section className="content">
+            <section className="section--content">
                 <header>
-                    <h1>Hello!</h1>
+                    <h1>Hoodie</h1>
                 </header>
 
                 <section>

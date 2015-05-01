@@ -27,12 +27,12 @@ export default class App extends React.Component
 
     componentDidMount()
     {
-        hoodie.account.on( 'signup signin signout', this.onChange.bind( this)  );
+        hoodie.account.on( 'signin signout', this.onChange.bind( this )  );
     }
 
     componentWillUnmount()
     {
-        hoodie.account.off( 'signup signin signout', this.onChange.bind( this)  );
+        hoodie.account.off( 'signin signout' );
     }
 
     render()

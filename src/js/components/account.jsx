@@ -20,8 +20,8 @@ export default class Account extends React.Component
             hoodie.account.username.charAt(0).toUpperCase() + hoodie.account.username.slice(1);
 
         return (
-            <section className='account'>
-                <p>Logged as <span className='username'>{name}</span>.</p>
+            <section className='section--account'>
+                <p>Logged as <span className='section--account--username'>{name}</span>.</p>
                 {this.props.isLogged ?
                     <RaisedButton label="Sign out" onClick={this.signOut} />
                     : null
