@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "app",
   "dependencies": {
-    "classnames": "^1.2.2",
+    "classnames": "^2.1.0",
     "hoodie-plugin-appconfig": "^2.0.1",
     "hoodie-plugin-email": "^1.0.0",
     "hoodie-plugin-users": "^2.2.2",
@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "babelify": "^6.0.2",
-    "browserify": "^9.0.8",
+    "browserify": "^10.1.0",
     "gulp": "^3.8.11",
     "gulp-util": "^3.0.4",
     "object-assign": "^2.0.0",
